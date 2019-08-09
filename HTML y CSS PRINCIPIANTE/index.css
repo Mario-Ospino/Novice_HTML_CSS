@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    font-size: 20px;
+    font-family: sans-serif; 
+    font-weight: bold;
+}
+h2{
+    font: bold 14px sans-serif;
+}
+
+header,section,footer,aside,nav,hgroup,article{
+    display: block;
+}
+body{
+    text-align: center;
+}
+
+.Agrupar{
+    padding: 0;
+    margin: 5% auto;
+    width: 80%;
+    background:#FFC8B3;
+}
+.Cabezera{
+    background: #FFA6A8;
+    padding: 1%;
+    border: 1px solid #999999;
+}
+.Cabezera h1 {
+    text-align: left;
+}
+.Menu{
+ background: #E8BA97;
+ padding: 0.5%;
+ text-align: left;
+}
+
+.Menu li{
+    list-style: none;
+    padding: 5px;
+    font:bold 14px verdana;
+    display: inline-block;
+}
+.Section{  
+    margin: 2%;
+    width: 70%;
+    float: left;
+}
+time{
+    color:#999999;
+}
+article{
+    border: 1px solid #999999;
+    background: #FFD9A6;
+    padding: 20px;
+    margin-bottom: 3%;
+}
+
+article footer{
+    margin-top: 2%;
+    text-align:right;
+}
+.Aside{
+    margin: 2% ;
+    width: 20%;
+    float: right;
+}
+
+.Aside blockquote{
+    border:1px solid black;
+    padding: 5%;
+    background: #FFD9A6;
+    margin-bottom: 10%;
+    
+}
+.Pie{
+    background: black;
+    color: white;
+    padding: 3%;
+    clear: both;
+}
+img{
+    width: 70%;
+    display: block;
+    margin: 5% auto;
+}
